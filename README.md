@@ -1,7 +1,7 @@
 # WSSI26
 **Zadanie 1**
 Które z następujących zadań wymagają w Twojej opinii inteligencji od człowieka:
-• wypełnianie deklaracji PIT,
+-wypełnianie deklaracji PIT,
 • streszczanie tekstu,
 • tłumaczenie tekstu,
 • klasyfikacja tekstu do kategorii tematycznych,
