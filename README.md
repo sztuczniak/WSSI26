@@ -15,3 +15,4 @@ Które z następujących zadań wymagają w Twojej opinii inteligencji od człow
 - symboliczne obliczanie pochodnych funkcji,
 - symboliczne całkowanie funkcji,
 - kierowanie samochodem.
+  [Plazma](https://share.google/Dm5DsiTW5tv7u16in)
