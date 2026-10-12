@@ -16,4 +16,4 @@ Które z następujących zadań wymagają w Twojej opinii inteligencji od człow
 - symboliczne całkowanie funkcji,
 - kierowanie samochodem.
  # [Plazma](https://share.google/Dm5DsiTW5tv7u16in)
-! (https://share.google/Dm5DsiTW5tv7u16in)
+ ![plazma](https://share.google/Dm5DsiTW5tv7u16in)
