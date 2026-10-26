@@ -1,1 +1,201 @@
+    Program
 
+1
+
+zwierze(tom).
+
+2
+
+zwierze(fido).
+
+3
+
+zwierze(reks).
+
+4
+
+kot(tom).
+
+5
+
+pies(fido).
+
+6
+
+nie_kot(X) :- zwierze(X), \+ kot(X).
+
+7
+
+​
+
+8
+
+osoba(ania). osoba(bartek). osoba(celina).
+
+9
+
+osoba(dawid). osoba(ewa). osoba(filip).
+
+10
+
+plec(ania,kobieta). plec(celina,kobieta).
+
+11
+
+plec(ewa,kobieta).
+
+12
+
+plec(bartek,mezczyzna). plec(dawid,mezczyzna).
+
+13
+
+plec(filip,mezczyzna).
+
+14
+
+lubi(ania,bartek). lubi(bartek,ania).
+
+15
+
+lubi(ania,celina). lubi(celina,ania).
+
+16
+
+lubi(ewa,filip). lubi(filip,ewa).
+
+17
+
+lubi(dawid,ewa). lubi(filip,ania).
+
+18
+
+lubi(bartek,dawid).
+
+19
+
+unika(celina,filip). unika(filip,celina).
+
+20
+
+unika(dawid,bartek).
+
+21
+
+kocha(ania,bartek). kocha(bartek,ania).
+
+22
+
+kocha(celina,dawid). kocha(dawid,celina).
+
+23
+
+kocha(dawid,ewa).
+
+24
+
+kocha(ewa,filip). kocha(filip,ewa).
+
+ground(odczyt(syrena,sluch,glosny)).
+1true
+ground(odczyt(syrena,Kanal,glosny)).
+false
+Kanal = sluch, ground(odczyt(syrena,Kanal,glosny)).
+Kanal = sluch
+nie_kot(X).
+X = fido
+X = reks
+\+ kot(X).
+false
+lubi(ania,Kogo).
+Kogo = bartek
+Kogo = celina
+lubi(Kto,ania).
+Kto = bartek
+Kto = celina
+Kto = filip
+lubi(X,Y), lubi(Y,X).
+X = ania,
+Y = bartek
+X = bartek,
+Y = ania
+X = ania,
+Y = celina
+X = celina,
+Y = ania
+X = ewa,
+Y = filip
+X = filip,
+Y = ewa
+lubi(bartek,Kogo), dif(Kogo,dawid).
+Kogo = ania
+false
+ground(para(tom,reks)).
+1true
+ground(para(X,X)).
+false
+ground(para(tom,tom)).
+1true
+
+zad. 1.2 x sa nieokreślone 
+zad 2.1 negacja - tom nie jest psem, wiec zdanie jest p 
+zad2.2 negacja ma sukces gdyby w bazie nie bylo określone, że tom to kot 
+zad3.1 Filip lubi Anię, ale Ania nie lubi FIlipa 
+3.2 Kto = bartek
+3.4 
+X = ania,
+Y = bartek
+X = bartek,
+Y = ania
+X = ewa,
+Y = filip
+X = filip,
+Y = ewa
+X = dawid,
+Y = ewa
+4.1 
+X = ania,
+Y = bartek
+X = ewa,
+Y = filip
+4.2 
+X = celina,
+Y = filip
+X = filip,
+Y = celina
+4.3
+
+X = dawid,
+Y = ewa
+X = filip,
+Y = ania
+X = bartek,
+Y = dawid
+
+5.1 
+X = celina,
+Y = filip
+X = filip,
+Y = celina
+X = celina,
+Y = filip
+X = filip,
+Y = celina
+
+5.2 
+X = dawid
+X = ewa
+5.3 
+loves(X,Y).
+X = ania,
+Y = bartek
+X = bartek,
+Y = ania
+X = celina,
+Y = dawid
+X = dawid,
+Y = celina
+X = ewa,
+Y = filip
+X = filip,
+Y = ewa
